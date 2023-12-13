@@ -39,7 +39,30 @@
 
 <div class="content">
     <p><b><span class="umbau-text">Umbau!</span></b><br><br><br>
-    Hier entsteht für Sie in Kürze die Eingabemaske der Studienleistungs-Statistiken von StudyStats =)</p>
+    Studienleistung eingeben </p>
+    
+     <form action="" method="post">
+		<label for="kurs">Kurs:</label>
+		<select id="kurs" name="kurs">
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>     
+		</select><br><br>
+		
+		<label for="datum">Datum:</label>
+		<input type="date" id="datum" name="datum"><br><br>
+
+		<label for="art der leistung">Art der Leistung :</label>
+		<input type="text" id="art der leistung" name="art der leistung"><br><br>
+		
+		<label for="selbsteinschätzung">Selbsteinschätzung :</label>
+		<input type="text" id="selbsteinschätzung" name="selbsteinschätzung"><br><br>
+
+		<label for="dauer">Dauer:</label>
+		<input type="number" id="dauer" name="dauer"><br><br>
+
+		<button type="submit">Absenden</button>
+	</form>
 
 </div>
 
