@@ -1,0 +1,119 @@
+
+header {
+    background-color: #008000; 
+    height: 50px; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex-grow: 1; 
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; 
+}
+
+nav ul li {
+    position: relative;
+    border-right: 1px solid white; 
+    padding: 0 10px; 
+}
+
+nav ul li:last-child {
+    border-right: none; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #006400; 
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #008000; 
+    z-index: 1;
+}
+
+.dropdown li {
+    border: none; 
+    padding: 10px;
+}
+
+nav ul li:hover .dropdown {
+    display: block; 
+}
+
+.content {
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+.content img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+.logostamp {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+}
+
+.green-box {
+    background-color: #008000; 
+    height: 100px; 
+    width: 100%; 
+	position: fixed;
+    bottom: 0;
+	left: 0;
+    z-index: 2;
+}
+
+body {
+    background-image: url('../bilder/Backround.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.streifenl {
+	background-color: #FFF5E1; 
+    height: 100%; 
+    width: 50px; 
+	position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.streifenr {
+	background-color: #FFF5E1; 
+    height: 100%; 
+    width: 50px; 
+	position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.umbau-text {
+    font-size: 35px; 
+}
